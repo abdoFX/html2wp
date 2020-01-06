@@ -35,6 +35,35 @@ add_action( 'wp_enqueue_scripts', 'load_css');
 
 // Load Javascript 
 
+function load_js(){
+
+    wp_register_script( 'jquery', 
+    get_template_directory_uri(  ).'/plugin-frameworks/jquery-3.2.1.min.js',array(),1,1,1);
+    
+    wp_enqueue_script( 'jquery'  )    ;
+    
+    wp_register_script( 'bootstrap_js', 
+    get_template_directory_uri(  ).'/plugin-frameworks/bootstrap.min.js',array(),1,1,1);
+    
+    wp_enqueue_script( 'bootstrap_js'  )    ;
+    
+    
+    wp_register_script( 'swiper', 
+    get_template_directory_uri(  ).'/plugin-frameworks/swiper.js',array(),1,1,1);
+    
+    wp_enqueue_script( 'swiper'  )    ;
+    
+    
+    wp_register_script( 'common', 
+    get_template_directory_uri(  ).'/common/scripts.js',array(),1,1,1);
+    
+    wp_enqueue_script( 'common'  )    ;
+    
+    }
+    
+    add_action( 'wp_enqueue_scripts', 'load_js' ) ; 
+    
+    
 
 
 

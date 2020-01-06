@@ -1,5 +1,5 @@
-
 <?php get_header(  ) ?> 
+
 <section class="bg-1 h-900x main-slider pos-relative">
         <div class="triangle-up pos-bottom"></div>
         <div class="container h-100">
@@ -153,7 +153,7 @@
 <section>
         <div class="container">
                 <div class="heading">
-                        <img class="heading-img" src="images/heading_logo.png" alt="">
+                        <img class="heading-img" src="<?php bloginfo('template_directory');?>/images/heading_logo.png" alt="">
                         <h2>Our Menu</h2>
                 </div>
 
@@ -252,5 +252,10 @@
 
                 <h6 class="center-text mt-40 mt-sm-20 mb-30"><a href="#" class="btn-primaryc plr-25"><b>SEE TODAYS MENU</b></a></h6>
         </div><!-- container -->
+
+
 </section>
-<?php get_foote(  ) ?> 
+
+
+
+<?php get_footer(  ) ?> 

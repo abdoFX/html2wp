@@ -2,7 +2,7 @@
 <footer class="pb-50  pt-70 pos-relative">
         <div class="pos-top triangle-bottom"></div>
         <div class="container-fluid">
-                <a href="index.html"><img src="images/logo-white.png" alt="Logo"></a>
+                <a href="index.html"><img src="<?php bloginfo( 'template_directory' ) ;?> /images/logo-white.png" alt="Logo"></a>
 
                 <div class="pt-30">
                         <p class="underline-secondary"><b>Address:</b></p>

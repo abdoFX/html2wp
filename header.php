@@ -23,7 +23,7 @@
 
                 <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
                 <?php wp_nav_menu( 
-         array('theme_location' => 'top_menu',
+         array('theme_location' => 'top-menu',
           'menu_id' => 'main-menu',
           'container' => 'ul',
          'menu_class' => 'main-menu font-mountainsre'

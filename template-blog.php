@@ -33,7 +33,7 @@ get_header(  );
                                                         <h4><b>18</b></h4>
                                                         <div class="brdr-style-1"></div>
                                                 </div>
-                                                <img src="images/blog-1-1000x400.jpg" alt="">
+                                                <img src="<?php bloginfo( 'template_directory' ) ;?> /images/blog-1-1000x400.jpg" alt="">
                                         </div>
                                         <h4><a href="#"><b>The secret of the perfect italian pizza</b></a></h4>
                                         <h6 class="mt-10 bg-lite-blue dplay-inl-block">
@@ -54,7 +54,7 @@ get_header(  );
                                                         <h4><b>18</b></h4>
                                                         <div class="brdr-style-1"></div>
                                                 </div>
-                                                <img src="images/blog-2-1000x400.jpg" alt="">
+                                                <img src="<?php bloginfo( 'template_directory' ) ;?> /images/blog-2-1000x400.jpg" alt="">
                                         </div>
                                         <h4><a href="#"><b>The best recipe for raviolli with pesto</b></a></h4>
                                         <h6 class="mt-10 bg-lite-blue dplay-inl-block">
@@ -75,7 +75,7 @@ get_header(  );
                                                         <h4><b>18</b></h4>
                                                         <div class="brdr-style-1"></div>
                                                 </div>
-                                                <img src="images/blog-3-1000x400.jpg" alt="">
+                                                <img src="<?php bloginfo( 'template_directory' ) ;?> /images/blog-3-1000x400.jpg" alt="">
                                         </div>
                                         <h4><a href="#"><b>Recipe of the week: Tomato pastas</b></a></h4>
                                         <h6 class="mt-10 bg-lite-blue dplay-inl-block">
@@ -104,7 +104,7 @@ get_header(  );
 
                                         <div class="mb-50 mb-sm-30 pos-relative oflow-hidden">
                                                 <div class="bg-trinagle-primary"></div>
-                                                <img src="images/sidebar-1-400x600.jpg" alt="">
+                                                <img src="<?php bloginfo( 'template_directory' ) ;?> /images/sidebar-1-400x600.jpg" alt="">
                                                 <div class="abs-bl font-18 color-white p-30 z-1">
                                                         <h4 class="lh-1">30%</h4>
                                                         <h4 class="lh-1">off</h4>
@@ -123,7 +123,7 @@ get_header(  );
                                         <div class="mb-50 mb-sm-30">
                                                 <h5 class="mb-30 left-text"><b>Latest Posts</b></h5>
                                                 <div class="sided-90x mb-30 ">
-                                                        <div class="s-left"><img class="br-3" src="images/sidebar-3-200x200.jpg" alt="Menu Image"></div>
+                                                        <div class="s-left"><img class="br-3" src="<?php bloginfo( 'template_directory' ) ;?> /images/sidebar-3-200x200.jpg" alt="Menu Image"></div>
                                                         <div class="s-right left-text">
                                                                 <h6 class="color-semi-black">Recipes</h6>
                                                                 <h6 class="font-11 mtb-5"><b>The best recipe for pasta</b></h6>
@@ -132,7 +132,7 @@ get_header(  );
                                                 </div><!-- sided-90x -->
 
                                                 <div class="sided-90x mb-30 ">
-                                                        <div class="s-left"><img class="br-3" src="images/sidebar-4-200x200.jpg" alt="Menu Image"></div>
+                                                        <div class="s-left"><img class="br-3" src="<?php bloginfo( 'template_directory' ) ;?> /images/sidebar-4-200x200.jpg" alt="Menu Image"></div>
                                                         <div class="s-right left-text">
                                                                 <h6 class="color-semi-black">Recipes</h6>
                                                                 <h6 class="font-11 mtb-5"><b>The secret to amazing food</b></h6>
@@ -141,7 +141,7 @@ get_header(  );
                                                 </div><!-- sided-90x -->
 
                                                 <div class="sided-90x mb-30 ">
-                                                        <div class="s-left"><img class="br-3" src="images/sidebar-5-200x200.jpg" alt="Menu Image"></div>
+                                                        <div class="s-left"><img class="br-3" src="<?php bloginfo( 'template_directory' ) ;?> /images/sidebar-5-200x200.jpg" alt="Menu Image"></div>
                                                         <div class="s-right left-text">
                                                                 <h6 class="color-semi-black">Recipes</h6>
                                                                 <h6 class="font-11 mtb-5"><b>Orange lemonade </b></h6>
@@ -151,7 +151,7 @@ get_header(  );
                                         </div><!--mb-50-->
 
                                         <div class="mb-30 pos-relative">
-                                                <img src="images/sidebar-2-400x600.jpg" alt="">
+                                                <img src="<?php bloginfo( 'template_directory' ) ;?> /images/sidebar-2-400x600.jpg" alt="">
                                                 <div class="font-23  ptb-15 abs-tlr-30 color-white center-text brdr-primary-3">
                                                         <div class="abs-tblr bg-black opacty-6 z--1"></div>
                                                         <h4><b>1 + 1</b></h4>
